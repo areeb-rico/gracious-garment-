@@ -1,0 +1,26 @@
+.btn{
+    position: relative;
+    left: 500px;
+    top: 10px;
+}
+.btn :hover{
+    color: gray;
+    border-color: rgb(255, 255, 255); /* Mouse hover par border ka color blue ho jaye */
+    color: rgb(0, 0, 0); /* Text ka color bhi change kare */
+}
+button {
+    background-color: rgb(255, 255, 255); /* Initial color */
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Jab button par click karein */
+button:active {
+    background-color: rgb(0, 0, 0); /* Change color on click */
+}
+button:hover {
+    border-color: rgb(255, 255, 255); /* Mouse hover par border ka color blue ho jaye */
+    color: rgb(0, 0, 0); /* Text ka color bhi change kare */
